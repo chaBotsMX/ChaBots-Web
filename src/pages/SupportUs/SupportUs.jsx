@@ -1,12 +1,11 @@
 import Header from '../../Components/Header/Header';
-import "./landing.scss";
-const Landing = () => {
+const SupportUs = () => {
     return (
         <div>
             <Header/>
-            <h2>Landing</h2>
+            <h2>Support Us</h2>
         </div>
     )
 }
 
-export default Landing;
+export default SupportUs;

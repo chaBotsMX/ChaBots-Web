@@ -2,7 +2,7 @@ import "./header.scss"
 
 const Header = () => {
 
-    const items = ["Members", "Experience", "Contacts", "Documentation"]
+    const items = ["Members", "Experience", "Documentation", "Support Us"]
     return(
         <div className="header">
             <div className="wrapper">
