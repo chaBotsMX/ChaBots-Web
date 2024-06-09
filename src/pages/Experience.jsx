@@ -1,10 +1,10 @@
-import Header from '../components/Header'
+//import Header from '../LandingComponents/Header'
 
 const Experience = () => {
     return (
         <div>
-            <Header/>
-            <h2>Experience</h2> 
+{/*             <Header/>
+ */}            <h2>Experience</h2> 
         </div>
     )
 }

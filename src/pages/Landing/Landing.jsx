@@ -1,5 +1,5 @@
-import Header from '../components/Header'
-
+import Header from '../../LandingComponents/Header'
+import "./landing.scss";
 const Landing = () => {
     return (
         <div>

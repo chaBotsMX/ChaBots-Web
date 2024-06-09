@@ -1,0 +1,22 @@
+html{
+    scroll-snap-type:y mandatory;
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Oxanium", sans-serif;
+    font-weight: 300;
+}
+
+body{
+    background-color: #16222B;
+    color: white;
+}
+
+Route{
+    height: 100vh;
+    scroll-snap-align: center;
+}

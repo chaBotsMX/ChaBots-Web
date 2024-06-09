@@ -1,9 +1,9 @@
-import Header from '../components/Header'
+//import Header from '../LandingComponents/Header'
 
 const Members = () => {
     return (
         <div>
-            <Header/>
+            {/* <Header/> */}
             <h2>Members</h2>
         </div>
     )

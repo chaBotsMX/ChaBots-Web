@@ -1,4 +1,4 @@
-import Header from '../components/Header'
+import Header from '../LandingComponents/Header'
 
 const NotFound = () => {
     return (
