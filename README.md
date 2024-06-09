@@ -1,2 +1,2 @@
-# chaBotsWeb2024
-Beta new chabots web page
+# chaBots Web 2024
+Beta version of the new chaBots web page
