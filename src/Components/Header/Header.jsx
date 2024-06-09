@@ -1,4 +1,5 @@
 import "./header.scss"
+import Sidebar from "../Sidebar/Sidebar";
 
 const Header = () => {
 
@@ -6,10 +7,13 @@ const Header = () => {
     return(
         <div className="header">
             <div className="wrapper">
-                <a href="/home">
-                    <img src="/chaBotslogoredesign.png" alt="" />
-                </a>
-                    <div className="tabs">
+                <div className="leftContainer">
+                <Sidebar/>
+                    <a href="/home">
+                        <img src="/chaBotslogoredesign.png" alt="" />
+                    </a>
+                </div>
+                <div className="tabs">
                     {items.map((item) => (
                         <a
                             href={`/${item}`}

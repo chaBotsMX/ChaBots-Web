@@ -16,7 +16,14 @@ body{
     color: white;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+
 Route{
     height: 100vh;
+    width: 100vw;
     scroll-snap-align: center;
+    overflow: hidden;
 }
