@@ -1,26 +1,34 @@
 import "./header.scss"
-import Sidebar from "../Sidebar/Sidebar";
+import {motion} from "framer-motion"
 
 const Header = () => {
-
     const items = ["Members", "Experience", "Documentation", "Support Us"]
     return(
         <div className="header">
             <div className="wrapper">
                 <div className="leftContainer">
-                <Sidebar/>
                     <a href="/home">
-                        <img src="/chaBotslogoredesign.png" alt="" />
+                        <motion.img
+                            src="/chaBotslogoredesign.png"
+                            alt=""
+                            whileHover={{
+                                scale: 1.025,
+                            }}
+                        />
                     </a>
                 </div>
                 <div className="tabs">
                     {items.map((item) => (
-                        <a
+                        <motion.a
                             href={`/${item}`}
                             key={item}
+                            whileHover={{
+                                scale: 1.01,
+                                color: "#029DEB",
+                            }}
                         >
                             {item}
-                        </a>
+                        </motion.a>
                     ))}
                 </div>
             </div>
