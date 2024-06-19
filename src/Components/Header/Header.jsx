@@ -1,39 +1,12 @@
-import "./header.scss"
-import {motion} from "framer-motion"
-
+import "./header.scss";
 const Header = () => {
-    const items = ["Members", "Experience", "Documentation", "Support Us"]
-    return(
+    return (
         <div className="header">
-            <div className="wrapper">
-                <div className="leftContainer">
-                    <a href="/home">
-                        <motion.img
-                            src="/chaBotslogoredesign.png"
-                            alt=""
-                            whileHover={{
-                                scale: 1.025,
-                            }}
-                        />
-                    </a>
-                </div>
-                <div className="tabs">
-                    {items.map((item) => (
-                        <motion.a
-                            href={`/${item}`}
-                            key={item}
-                            whileHover={{
-                                scale: 1.01,
-                                color: "#029DEB",
-                            }}
-                        >
-                            {item}
-                        </motion.a>
-                    ))}
-                </div>
+            <div className="photo">
+                <img src="/chaBots2019photo.png" alt=""/>
             </div>
         </div>
-    );
-};
+    )
+}
 
 export default Header;

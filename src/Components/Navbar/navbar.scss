@@ -1,0 +1,36 @@
+.header{
+    height: 75px;
+    background-color: #2B3033;
+
+    .wrapper{
+        width: calc(100% - 80px);
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+
+        .leftContainer{
+            width: 30%;
+            //margin: auto;
+            display: flex;
+            //align-items: center;
+            gap: 75px;
+            img{
+                width: 50px;
+                height: auto;
+            }    
+        }
+
+        .tabs{
+            display: flex;
+            gap: 50px;
+        }
+
+        a{
+            font-size: 20px;
+            color: white;
+            text-decoration: none;
+        }
+    }
+}

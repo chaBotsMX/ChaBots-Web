@@ -1,8 +1,8 @@
-import Header from "../../Components/Header/Header";
+import Navbar from "../../Components/Navbar/Navbar";
 const Experience = () => {
     return (
         <div>
-            <Header/>
+            <Navbar/>
             <h2>Experience</h2> 
         </div>
     )

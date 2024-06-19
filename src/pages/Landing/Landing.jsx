@@ -1,13 +1,12 @@
-import Header from '../../Components/Header/Header';
-import LandingPage from '../../Components/Header/LandingPage/LandingPage';
-//import Sidebar from '../../Components/Sidebar/Sidebar';
+import Navbar from "../../Components/Navbar/Navbar";
+import Header from "../../Components/Header/Header";
 import "./landing.scss";
 const Landing = () => {
     return (
         <div>
+            <Navbar/>
             <Header/>
-            <LandingPage/>
-            <h2>Landing</h2>
+            <h2>landing</h2>
         </div>
     )
 }

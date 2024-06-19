@@ -1,9 +1,8 @@
-import Header from "../../Components/Header/Header";
-
+import Navbar from "../../Components/Navbar/Navbar";
 const Members = () => {
     return (
         <div>
-            <Header/>
+            <Navbar/>
             <h2>Members</h2>
         </div>
     )
