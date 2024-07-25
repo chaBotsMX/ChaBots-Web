@@ -1,11 +1,11 @@
 import Navbar from "../../Components/Navbar/Navbar";
-const SupportUs = () => {
+const Contact = () => {
     return (
         <div>
             <Navbar/>
-            <h2>Support Us</h2>
+            <h2>Contact</h2>
         </div>
     )
 }
 
-export default SupportUs;
+export default Contact;

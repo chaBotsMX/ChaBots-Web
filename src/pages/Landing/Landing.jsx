@@ -6,7 +6,7 @@ const Landing = () => {
         <div>
             <Navbar/>
             <Header/>
-            <h2>landing</h2>
+            {/* <h2>landing</h2> */}
         </div>
     )
 }

@@ -2,7 +2,7 @@ import "./navbar.scss"
 import {motion} from "framer-motion"
 
 const Navbar = () => {
-    const items = ["MEMBERS", "EXPERIENCE", "CONTACT US", "DOCUMENTATION"]
+    const items = ["MEMBERS", "EXPERIENCE", "CONTACT", "DOCUMENTATION"]
     return(
         <div className="header">
             <div className="wrapper">

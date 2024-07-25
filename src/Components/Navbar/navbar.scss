@@ -4,11 +4,11 @@
 }
 
 .header{
-    height: 75px;
+    height: 100px;
     background-color: white;
 
     .wrapper{
-        width: calc(100% - 80px);
+        width: calc(100% - 50px);
         margin: auto;
         display: flex;
         align-items: center;
@@ -29,7 +29,7 @@
 
         .tabs{
             display: flex;
-            gap: 50px;
+            gap: 40px;
         }
 
         a{
