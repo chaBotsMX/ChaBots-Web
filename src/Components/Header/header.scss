@@ -1,6 +1,8 @@
 .header{
     .photo{
-        height: calc(100vh - 75px);
+        /* top: 50%; */
+        /* height: calc(100vh - 75px); */
+        height: 100vh;
         overflow: hidden;
         img{
             width: 100vw;

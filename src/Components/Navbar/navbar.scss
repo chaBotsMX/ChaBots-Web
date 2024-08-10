@@ -4,8 +4,11 @@
 }
 
 .header{
-    height: 100px;
+    height: 60px;
     background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
     .wrapper{
         width: calc(100% - 50px);
@@ -17,26 +20,41 @@
 
         .leftContainer{
             width: 30%;
-            //margin: auto;
             display: flex;
-            //align-items: center;
             gap: 75px;
+
             img{
-                width: 50px;
+                width: 40px;
                 height: auto;
             }    
         }
 
-        .tabs{
+        .rightContainer{
+            width: auto;
             display: flex;
-            gap: 40px;
-        }
+            align-items: center;
+            gap: 30px;
+            padding-right: 60px;
+            position: relative;
 
-        a{
-            font-family: "Neutraface";
-            font-size: 14px;
-            color: black;
-            text-decoration: none;
+            .tabs{
+                display: flex;
+                gap: 30px;
+            }
+    
+            a{
+                font-family: "Neutraface";
+                font-size: 14px;
+                color: black;
+                text-decoration: none;
+            }
+
+            .sidebar{
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                height: 60px;
+            }
         }
     }
 }

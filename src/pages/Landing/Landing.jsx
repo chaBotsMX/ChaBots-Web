@@ -5,8 +5,8 @@ const Landing = () => {
     return (
         <div>
             <Navbar/>
-            <Header/>
-            {/* <h2>landing</h2> */}
+            {/* <Header/> */}
+            <h2>landing</h2>
         </div>
     )
 }
