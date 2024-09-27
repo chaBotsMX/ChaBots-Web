@@ -1,0 +1,78 @@
+.mainDiv{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+}
+.photoDiv {
+    position: relative;
+    height: 60%;
+    width: 90%;
+    margin-left: 10%;
+    overflow: hidden;
+
+}
+.photo{
+    height: 100%;
+    width: 100%;
+    transform: scale(1.1);
+}
+
+.logo {
+    position: absolute;
+    height: 72%;
+    top: 16%;
+    right: 0%;
+    transform: translateX(-50%);
+}
+
+.chabots{
+    /* CHABOTS */
+    margin-top: 4vh;
+    position: absolute;
+    width: 10%;
+    height: 55%;
+
+}
+.svg-container{
+    width: 100px;
+    height: 100px;
+    resize: both;
+    overflow: hidden;
+    border: 1px dashed #aaa;
+}
+
+.textDiv{
+    position: relative;
+    height: auto;
+    margin-top: 2vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+@font-face {
+    font-family: "Neutraface2Text-Demi";
+    src: url("https://db.onlinewebfonts.com/t/92ed2e6dc5f62cee434c58a1abfdb756.eot");
+    src: url("https://db.onlinewebfonts.com/t/92ed2e6dc5f62cee434c58a1abfdb756.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/92ed2e6dc5f62cee434c58a1abfdb756.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/92ed2e6dc5f62cee434c58a1abfdb756.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/92ed2e6dc5f62cee434c58a1abfdb756.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/92ed2e6dc5f62cee434c58a1abfdb756.svg#Neutraface2Text-Demi")format("svg");
+}
+
+.sponsor{
+    
+    font-family: 'Neutraface2Text-Demi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: center;
+    color: #44C0FF;
+
+}
+
+
+

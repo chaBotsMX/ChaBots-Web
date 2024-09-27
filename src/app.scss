@@ -1,6 +1,8 @@
 html{
     scroll-snap-type:y mandatory;
     scroll-behavior: smooth;
+    width: 100vw;
+    height: 100vh;
 }
 
 *{
@@ -14,6 +16,9 @@ html{
 body{
     background-color: #EFEFEF;
     color: white;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
 }
 
 a {
