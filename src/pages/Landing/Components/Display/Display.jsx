@@ -14,10 +14,9 @@ const Display = () => {
                 <img src="../../../../../chaBotslogoredesign.png" className="logo"/>
                 </div>       
             </div>
-            <div className="textDiv">
-                <h1 className="sponsor">PROUDLY SPONSORED BY:</h1>
-               
-        </div></div>
+      
+                
+        </div>
        ) 
 }
 

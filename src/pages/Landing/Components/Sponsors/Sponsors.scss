@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "Neutraface2Text-Demi";
+    src: url("https://db.onlinewebfonts.com/t/92ed2e6dc5f62cee434c58a1abfdb756.eot");
+    src: url("https://db.onlinewebfonts.com/t/92ed2e6dc5f62cee434c58a1abfdb756.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/92ed2e6dc5f62cee434c58a1abfdb756.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/92ed2e6dc5f62cee434c58a1abfdb756.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/92ed2e6dc5f62cee434c58a1abfdb756.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/92ed2e6dc5f62cee434c58a1abfdb756.svg#Neutraface2Text-Demi")format("svg");
+}
+
+
+img{
+    max-width: 100%;
+}
+.sponsor{
+    
+    font-family: 'Neutraface2Text-Demi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 42px;
+    text-align: center;
+    color: #44C0FF;
+
+}
+
+.divSponsors{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.qidi-logo{
+    width: 20%;
+    height: 10px;
+    
+}
+.openmv-logo{
+    width: 20%;
+    height: 10%;
+    z-index: 1;
+    
+}
+.maxon-logo{
+    width: 20%;
+    height: 10%;
+}
